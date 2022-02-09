@@ -10,7 +10,7 @@ namespace PeanutInfection
         public override string Author { get; } = "BANANO";
         public override string Name { get; } = "PeanutInfection";
         public override string Prefix { get; } = "Peanut Infection";
-        public override Version Version { get; } = new Version(0, 1, 0);
+        public override Version Version { get; } = new Version(0, 1, 1);
         public override Version RequiredExiledVersion { get; } = new Version(4, 2, 3);
 
         public EventHandlers _handler;
