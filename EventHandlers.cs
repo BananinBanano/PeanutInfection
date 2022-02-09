@@ -13,6 +13,11 @@ namespace PeanutInfection
                 if (ev.Killer.Role == RoleType.Scp173)
                 {
                     ev.Target.SetRole(RoleType.Scp173);
+                    
+                    if (Main.singleton.Config.HabilitarBC)
+                    {
+                        ev.Target.Broadcast(5, "TU TEXTO");
+                    }
                 }
             });
         }
