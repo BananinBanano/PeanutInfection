@@ -11,7 +11,7 @@ namespace PeanutInfection
         public override string Name { get; } = "PeanutInfection";
         public override string Prefix { get; } = "Peanut Infection";
         public override Version Version { get; } = new Version(0, 3, 0);
-        public override Version RequiredExiledVersion { get; } = new Version(5, 0, 0);
+        public override Version RequiredExiledVersion { get; } = new Version(5, 1, 0);
 
         public EventHandlers _handler;
         public override void OnEnabled()
